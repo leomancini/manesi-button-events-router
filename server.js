@@ -12,15 +12,6 @@ const logSuccess = (action) => {
   console.log(`[SUCCESS] Action: ${action}`);
 };
 
-// Add request logging middleware (moved before API key validation)
-app.use((req, res, next) => {
-  const action = req.query.action;
-  if (action) {
-    console.log(`Action: ${action}`);
-  }
-  next();
-});
-
 // API key validation middleware
 app.use((req, res, next) => {
   const apiKey = req.query.apiKey;
