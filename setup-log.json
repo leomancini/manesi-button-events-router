@@ -1,0 +1,9 @@
+{
+  "service_id": "manesi-button-events-router",
+  "service_name": "manesi-button-events-router",
+  "domain": "https://manesi-button-events-router.noshado.ws",
+  "host": "localhost",
+  "port": "3112",
+  "author": "leo",
+  "created_on": "Mon 26 May 2025 11:13:27 AM EDT"
+}
