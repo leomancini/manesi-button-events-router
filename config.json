@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "GREEN_BUTTON_PRESSED": {
+      "method": "POST",
+      "url": "https://fcc-kiosk-server.noshado.ws/change-url",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "id": "japan",
+        "fccApiKey": "${FCC_KIOSK_API_KEY}"
+      }
+    },
+    "GREEN_BUTTON_RELEASED": {},
+    "RED_BUTTON_PRESSED": {
+      "method": "POST",
+      "url": "https://fcc-kiosk-server.noshado.ws/change-url",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "id": "nyc-traffic-cameras",
+        "fccApiKey": "${FCC_KIOSK_API_KEY}"
+      }
+    },
+    "RED_BUTTON_RELEASED": {},
+    "SWITCH_TURNED_LEFT": {},
+    "SWITCH_TURNED_RIGHT": {},
+    "EMERGENCY_SHUTOFF_PRESSED": {},
+    "EMERGENCY_SHUTOFF_RELEASED": {}
+  }
+}
