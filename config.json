@@ -19,7 +19,7 @@
         "Content-Type": "application/json"
       },
       "body": {
-        "id": "nyc-traffic-cameras",
+        "id": "nyc-traffic",
         "fccApiKey": "${FCC_KIOSK_API_KEY}"
       }
     },
