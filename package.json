@@ -5,7 +5,7 @@
   "description": "Button events router with configurable HTTP endpoints",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node /home/leo/services/manesi-button-events-router/server.js"
   },
   "author": "",
   "license": "ISC",
