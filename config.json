@@ -2,7 +2,7 @@
   "actions": {
     "GREEN_BUTTON_PRESSED": {
       "method": "POST",
-      "url": "https://fcc-kiosk-server.noshado.ws/change-url",
+      "url": "https://kiosk-server.fcc.lol/change-url",
       "headers": {
         "Content-Type": "application/json"
       },
@@ -14,7 +14,7 @@
     "GREEN_BUTTON_RELEASED": {},
     "RED_BUTTON_PRESSED": {
       "method": "POST",
-      "url": "https://fcc-kiosk-server.noshado.ws/change-url",
+      "url": "https://kiosk-server.fcc.lol/change-url",
       "headers": {
         "Content-Type": "application/json"
       },
