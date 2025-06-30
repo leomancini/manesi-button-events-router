@@ -106,8 +106,10 @@ app.get("/", (req, res) => {
   const action = req.query.action;
   if (action) {
     logSuccess(action);
+    res.json({ success: true });
+  } else {
+    res.json({ success: false, error: "No action provided" });
   }
-  res.send("Hello world!");
 });
 
 app.listen(port, () => {
